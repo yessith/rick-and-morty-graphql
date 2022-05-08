@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/rick-and-morty-graphql/static/js/main.aa834f74.js",
-    "index.html": "/rick-and-morty-graphql/index.html",
-    "main.aa834f74.js.map": "/rick-and-morty-graphql/static/js/main.aa834f74.js.map"
+    "main.js": "/static/js/main.bd9a9a2c.js",
+    "index.html": "/index.html",
+    "main.bd9a9a2c.js.map": "/static/js/main.bd9a9a2c.js.map"
   },
   "entrypoints": [
-    "static/js/main.aa834f74.js"
+    "static/js/main.bd9a9a2c.js"
   ]
 }
