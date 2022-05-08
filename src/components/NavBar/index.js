@@ -16,7 +16,7 @@ export function NavBar({ onRandomId }) {
 			<NavMenu>
 				<Button onClick={onRandomId}>Generate</Button>
 				<Button>
-					<Link to='/Caracters'>History</Link>
+					<Link to='/caracters'>History</Link>
 				</Button>
 			</NavMenu>
 		</Header>
