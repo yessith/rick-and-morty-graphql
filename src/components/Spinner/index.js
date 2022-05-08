@@ -1,12 +1,12 @@
-import './styles.css';
+import { Loading } from 'styled-components/Spinner'
 
 export function Spinner() {
 	return (
-		<div className='lds-ring'>
+		<Loading>
 			<div></div>
 			<div></div>
 			<div></div>
 			<div></div>
-		</div>
-	);
+		</Loading>
+	)
 }

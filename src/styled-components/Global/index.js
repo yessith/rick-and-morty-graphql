@@ -1,14 +1,24 @@
+import { createGlobalStyle } from 'styled-components'
+
+export const GlobalStyle = createGlobalStyle`
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
   --Font-Family: 'Roboto', sans-serif;
   --Color-White: #ffffff;
   --Color-Brand: #131921;
   --Color-Brand-Second: #242F3E;
   --Btn-Primary: #d62828;
+  --Loading-Item-1: #F77F00;
+  --Loading-Item-2: #00ccff;
+  --Loading-Item-3: #9933ff;
+  --Loading-Item-4: tomato;
+  --Loading-Item-5: #fff35c;
 }
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /*------------------------------------*\
     $RESET
 \*------------------------------------*/
@@ -95,3 +105,4 @@ span {
   font-weight: 400;
   font-size: 1.7rem;
 }
+`

@@ -1,4 +1,5 @@
 import { Spinner } from 'components/Spinner'
+import { Character, DetailsCharacter, DetailsList } from 'styled-components/Character'
 
 export function Details({ character, loading, error }) {
 	if (loading) return <Spinner />
@@ -7,16 +8,16 @@ export function Details({ character, loading, error }) {
 	return (
 		<>
 			{character ? (
-				<section>
+				<Character>
 					<figure>
 						<img src={character.image} alt={character.name} />
 					</figure>
-					<article>
+					<DetailsCharacter>
 						<div>
 							<h1>{character.name}</h1>
 							<span>Character ID: {character.id}</span>
 						</div>
-						<ul>
+						<DetailsList>
 							<li>Status: {character.status}</li>
 							<li>Species: {character.species}</li>
 							<li>Type: {character.type}</li>
@@ -24,9 +25,9 @@ export function Details({ character, loading, error }) {
 							<li>Origin: {character.origin.name}</li>
 							<li>Location: {character.location.name}</li>
 							<li>Create al: {character.created}</li>
-						</ul>
-					</article>
-				</section>
+						</DetailsList>
+					</DetailsCharacter>
+				</Character>
 			) : (
 				<h1>No se ha cargado ningún personaje</h1>
 			)}

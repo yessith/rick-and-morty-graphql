@@ -1,4 +1,5 @@
 import { ListCharacters } from 'components/ListCharacters'
+import { MainLayout } from 'styled-components/MainLayout'
 import { Header, Logo } from 'styled-components/NavBar'
 
 export function Caracters() {
@@ -14,9 +15,9 @@ export function Caracters() {
 					</figure>
 				</Logo>
 			</Header>
-			<main>
+			<MainLayout>
 				<ListCharacters />
-			</main>
+			</MainLayout>
 		</>
 	)
 }
