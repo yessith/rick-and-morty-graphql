@@ -1,10 +1,12 @@
 import { useQuery } from '@apollo/client'
 import { GET_CHARECTER } from 'graphql/queries'
 import { useEffect, useState } from 'react'
+import { random } from 'utils/random'
 
 export function useInitialState() {
+	const id = random()
 	const [list, setList] = useState([])
-	const [characterId, setCharacterId] = useState()
+	const [characterId, setCharacterId] = useState(id)
 	const [character, setCharacter] = useState()
 	const [modal, setModal] = useState(false)
 
