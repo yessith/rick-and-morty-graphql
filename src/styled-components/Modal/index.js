@@ -15,10 +15,11 @@ export const ModalContainer = styled.section`
 
 export const ModalContent = styled.div`
 	position: relative;
+	margin-top: 3rem;
 	& button {
 		position: absolute;
-		top: 4px;
-		right: 20px;
+		top: -31px;
+		right: 0;
 		cursor: pointer;
 		border: none;
 		border-radius: 50%;
