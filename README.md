@@ -18,7 +18,7 @@ Aplicativo web para genera personajes aleatorio de la serie de Rick And Morty y 
 
 ## 👀 Demo
 
-[Click here](https://yessith.github.io/)
+[Click here](https://yessith.github.io/rick-and-morty-graphql/)
 
 ## 💻 Run locally
 
